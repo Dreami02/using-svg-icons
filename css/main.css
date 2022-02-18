@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing
+}
+
+
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: felx;
+  flex-direction: column;
+  aligh-items: center;
+  color: #76a500;
+}
+
+a:hover,
+a:focus {
+  color: #acc300;
+}
+
+.icon {
+  position: relative;
+  height: 8em;
+  width: 8em;
+  }
+
+.icon svg {
+  left: 0;
+  top: 0;
+  position: absolute;
+  fill: currenColor;
+}
