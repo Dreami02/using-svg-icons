@@ -3,14 +3,14 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing
+  box-sizing: inherit;
 }
 
 
 
 ul {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ ul {
 a {
   display: felx;
   flex-direction: column;
-  aligh-items: center;
+  align-items: : center;
   color: #76a500;
 }
 
@@ -36,7 +36,9 @@ a:focus {
 
 .icon svg {
   left: 0;
+  height: 100%;
+  width: 100%;
   top: 0;
   position: absolute;
-  fill: currenColor;
+  fill: currentColor;
 }
